@@ -1,4 +1,4 @@
-# from selenium import webdriver
+from selenium import webdriver
 # from bs4 import BeautifulSoup
 
 import sys
@@ -7,3 +7,5 @@ type(sys.path)
 
 for path in sys.path:
     print(path)
+
+print(webdriver)
